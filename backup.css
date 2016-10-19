@@ -16,7 +16,6 @@ ul {
 a {
   margin: 0 auto;
   padding: 0;
-  height: 30px;
 }
 
 li a {
@@ -24,13 +23,14 @@ li a {
   font-size: 20px;
   display: inline-block;
   color: #000;
-  padding: 0px;
+  padding: 8px 30px 8px 0px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
   background-color: #cacaca;
+  background: url('icons.png') 0 0;
   background-repeat: no-repeat;
   color: black;
 }
@@ -62,7 +62,7 @@ span{
 
 }
 #subscribe-sprite{
-  background-position: 0px 3px;
+  background-position: 0px 0px;
   margin: 0px;
   height: 20px;
   width: 20px;
@@ -71,7 +71,7 @@ span{
 
 }
 #profile-sprite{
-  background-position: -20px 3px;
+  background-position: -20px 0px;
   margin: 0px;
   height: 20px;
   width: 20px;
@@ -79,16 +79,7 @@ span{
   margin-right: 15px;
 }
 #logout-sprite{
-  background-position: -40px 3px;
+  background-position: -40px 12px;
   width: 100px;
-  height: 30px;
   padding: 0px 30px;
-}
-#logout-sprite:hover{
-  background-color: #cacaca;
-  background-position: -40px -17px;
-  height: 30px;
-  width: 100px;
-  padding-top: 0px;
-  padding-right: 30px;
 }
